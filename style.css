@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(55, 32, 58);
+}
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    font-size: 50px;
+    
+}
+
+.img-gal {
+    margin: 70px auto 50px ;
+    gap: 20px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 70px;
+    
+}
+
+.img-gal img {
+    cursor: pointer;
+    flex-grow: 1;
+    height: 250px;
+    width: 250px;
+    flex-basis: 20% ;
+    transition: 0.1s ease-in-out;
+}
+
+.img-gal img:hover {
+    transform: scale(1.1);
+    border-radius: 20px;
+    box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+}
